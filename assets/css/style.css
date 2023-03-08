@@ -34,9 +34,7 @@ header nav .menu div {
 
 header nav .menu a {
     color: #000;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: 'Roboto';
+    font: bold 16px 'Roboto';
     text-decoration: none;
 }
 
@@ -54,17 +52,13 @@ header nav .menu a {
 }
 
 .body-text .text1{
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Roboto';
+    font: 300 14px 'Roboto';
     color: #ddd860;
 }
 
 .body-text .text2{
-    font-size: 40px;
-    font-weight:300;
+    font: 600 40px 'Tilt Warp';
     color: #020202;
-    font-family:'Tilt Warp';
 }
 
 .section-body{
