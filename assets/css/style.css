@@ -10,7 +10,6 @@
 .container {
     max-width: 1250px;
     margin: auto;
-    /* background-color: #fff; */
 }
 
 header nav {
@@ -79,9 +78,8 @@ header nav .menu a {
 
 .article-img{
     position: relative;
-    width: 310px;
+    width: 300px;
     height: 300px;
-    /* background-color: red; */
 }
 
 .section-body article img{
@@ -91,14 +89,12 @@ header nav .menu a {
 }
 
 .section-body article .img-text{
-    width: 310px;
-    /* height: 200px; */
+    width: 100%;
     padding: 15px 0;
     border-style: none solid solid;
     border-width: 2px;
     border-color: #bebebe;
     background-color: #fcf9f9;
-    /* position: relative; */
 }
 
 .container-img-text{
