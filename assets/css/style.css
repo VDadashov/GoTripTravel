@@ -105,17 +105,21 @@ header nav .menu a {
 .img-text-episode1 p{
     display: inline-block;
     color: #989aa9;
+    font-family: 'Roboto';
 }
 
 .img-text-episode2 p{
     margin: 13px 0;
-    font: bold;
-    font-size: 17px;  
+    font: bold 17px 'Roboto';
 }
 
 .img-text-episode3 span{
     color: #5e861c;
     font-weight: 600;
+}
+
+.img-text-episode3 p{
+    font: 500 14px 'Roboto';
 }
 
 .img-text-horizontal{
