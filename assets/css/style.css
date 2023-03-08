@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    /* background-color: #fff; */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 150px;
+    height: 130px;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .menu div {
+    margin-right: 30px;
+}
+
+header nav .menu a {
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.hr {
+    border: 2px solid #989aa9;
+    box-shadow: 0 6px 4px #e0e0e2;
+}
+
+.body-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.body-text .text1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ddd860;
+}
+
+.body-text .text2{
+    font-size: 40px;
+    font-weight:300;
+    color: #020202;
+    font-family:'Tilt Warp';
+}
+
+.section-body{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-body article{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-img{
+    position: relative;
+    width: 310px;
+    height: 300px;
+    /* background-color: red; */
+}
+
+.section-body article img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-body article .img-text{
+    width: 310px;
+    /* height: 200px; */
+    padding: 15px 0;
+    border-style: none solid solid;
+    border-width: 2px;
+    border-color: #bebebe;
+    background-color: #fcf9f9;
+    /* position: relative; */
+}
+
+.container-img-text{
+    max-width: 270px;
+    margin: auto;
+}
+
+.img-text i{
+    color: #ffd504;
+}
+
+.img-text-episode1 p{
+    display: inline-block;
+    color: #989aa9;
+}
+
+.img-text-episode2 p{
+    margin: 13px 0;
+    font: bold;
+    font-size: 17px;  
+}
+
+.img-text-episode3 span{
+    color: #5e861c;
+    font-weight: 600;
+}
+
+.img-text-horizontal{
+    width: 100%;
+    height: 0.5px;
+    margin: 25px 0;
+    background-color: #989aa9;
+}
+
+.img-text-episode4{
+    display: inline-block;
+}
+
+.img-text-episode4 div{
+    display: inline-block;
+}
+
+.img-text-episode4 div:nth-child(1){
+    margin-right: 15px;
+}
+
+.img-text-episode4 i{
+    color: #989aa9;
+}
+
+.img-text-episode4 span{
+    color: #989aa9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
