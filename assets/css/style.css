@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
 
 * {
     margin: 0;
@@ -34,8 +34,9 @@ header nav .menu div {
 
 header nav .menu a {
     color: #000;
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Roboto';
     text-decoration: none;
 }
 
@@ -55,6 +56,7 @@ header nav .menu a {
 .body-text .text1{
     font-size: 14px;
     font-weight: 600;
+    font-family: 'Roboto';
     color: #ddd860;
 }
 
@@ -138,7 +140,7 @@ header nav .menu a {
 }
 
 .img-text-episode4 div:nth-child(1){
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .img-text-episode4 i{
