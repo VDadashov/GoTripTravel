@@ -23,16 +23,16 @@ header nav img {
     height: 130px;
 }
 
-header nav .menu {
-    display: flex;
-    justify-content: space-between;
+header nav ul{
+    list-style-type: none;
 }
 
-header nav .menu div {
-    margin-right: 30px;
+header nav ul li {
+    margin-right: 30px; 
+    display: inline;
 }
 
-header nav .menu a {
+header nav ul a {
     color: #000;
     font: bold 16px 'Roboto';
     text-decoration: none;
