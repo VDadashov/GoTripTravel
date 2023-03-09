@@ -38,6 +38,9 @@ header nav ul a {
     text-decoration: none;
 }
 
+header .mobile{
+    display: none;
+}
 
 .hr {
     border: 2px solid #989aa9;
@@ -57,12 +60,12 @@ header nav ul a {
 }
 
 .body-text .text2{
-    font: 600 40px 'Tilt Warp';
+    font: 600 40px 'Roboto';
     color: #020202;
+    margin-bottom: 60px;
 }
 
 .section-body{
-    margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -74,7 +77,7 @@ header nav ul a {
 
 .article-img{
     position: relative;
-    width: 310px;
+    width: 300px;
     height: 300px;
 }
 
